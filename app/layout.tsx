@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { DM_Sans } from "next/font/google"
 import "./globals.css"
-import Attribution from "./components/Attribution"
+import Attribution from "./components/attribution"
 
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "700"] })
 
@@ -26,7 +26,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${dmSans.className} flex min-h-screen flex-col items-center`}
+        className={`${dmSans.className} flex min-h-screen flex-col items-center bg-cream text-dark-brown`}
       >
         {children}
         <Attribution />
