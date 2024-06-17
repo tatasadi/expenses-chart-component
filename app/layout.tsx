@@ -6,7 +6,7 @@ import Attribution from "./components/attribution"
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "700"] })
 
 export const metadata: Metadata = {
-  title: "Frontend Mentor Challenge",
+  title: "Expenses Chart Component",
   description: "A Challenge from Frontend Mentor!",
 }
 
